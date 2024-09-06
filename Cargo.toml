@@ -1,0 +1,8 @@
+[package]
+name = "macroquad-scene"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+macroquad-scene-macro = { version = "0.1.0", path = "./macroquad-scene-macro" }
+macroquad = { path = "../macroquad" }
